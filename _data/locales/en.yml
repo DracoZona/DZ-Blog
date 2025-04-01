@@ -36,14 +36,14 @@ copyright:
 
   # Displayed in the footer
   brief: HACKING IS NOT A CRIME
-  verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
-    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+  # verbose: >-
+  #   Except where otherwise noted, the blog posts on this site are licensed
+  #   under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
 
-meta: Using the :THEME theme for :PLATFORM.
+meta: Cybersecurity
 
 not_found:
-  statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  statement: Sorry, the hatdog 🌭 you're looking for is missing or it doesn't exist. Would you like some burgers instead? 🍔
 
 notification:
   update_found: A new version of content is available.
