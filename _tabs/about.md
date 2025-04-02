@@ -6,7 +6,7 @@ order: 4
 
 ## whoami
 
-My name is DracoZona and I am a n00b hacker that doesn't exactly know what I am doing or how things work. 
+My name is DracoZona and I am a n00b hacker who doesn't exactly know what I am doing or how things work. 
 
 Though I am always trying to improve. I have all the time in this world not to stay n00b. :<
 
