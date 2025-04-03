@@ -45,7 +45,7 @@ I opened the `auth.log` file and as I expected, there were a lot of lines.
 ![Desktop View](/assets/img/sherlock-brutus/ss3.png){: width="982" height="800" }
 
 
-Reading the `auth.log` file, I have noticed that there were a lot of `Failed password for invalid_user server_adm from` lines which gave the idea wherein there was a bruteforce attack performed. Along with this line was the IP of the attacker. At this point, I already achieved the 1st task which is to determine the IP adderss of the attacker.
+Reading the `auth.log` file, I have noticed that there were a lot of `Failed password for invalid_user server_adm from` lines which gave the idea wherein there was a bruteforce attack performed. Along with this line was the IP of the attacker. At this point, I already achieved the 1st task which was to determine the IP adderss of the attacker.
 
 It was indicated in the challenge that the bruteforce attack was successful and that the attacker was able to gain access to an account on the server. The next goal was to determine which account was compromised. 
 
@@ -63,7 +63,7 @@ The next goal was to determine the session number assigned to the attacker for t
 This was the one.
 ![Desktop View](/assets/img/sherlock-brutus/ss6.png){: width="982" height="800" }
 
-During the time the attacker was logged in as the compromised user, the attacker added a new user as part of their persistence strategy on the server and given it with higher privileges. The next goal was to determine which user was this. So I went back to the `auth.log` file again and filtered `new user`.
+During the time the attacker was logged in as the compromised user, the attacker added a new user as part of their persistence strategy on the server and assigned it with higher privileges. The next goal was to determine which user was this. So I went back to the `auth.log` file again and filtered `new user`.
 
 ![Desktop View](/assets/img/sherlock-brutus/ss7.png){: width="982" height="800" }
 
